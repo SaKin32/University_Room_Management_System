@@ -5,4 +5,4 @@ University Room Management System features:
 -> Added room booking and cancellation system
 -> Added text-based data files for structure
 
-// If you want to run this programme suggest you to "Main.cpp"
+// If you want to run this programme suggest "Main.cpp"
