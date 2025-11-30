@@ -1,0 +1,16 @@
+Details for Building 2:
+Room No.      Floor                     Type
+--------------------------------------------------------------
+ 201             2               Vice Principle Room
+ 202             2               Database & Operating System Lab
+ 203             2               Controller of Examination Management
+ 301             3               Internet Technology & Web Programming Lab
+ 401             4               Classroom
+ 402             4               Classroom
+ 403             4               Classroom
+ 501             5               IT Club, AI Club, Robotics Club Room
+ 502             5               Classroom
+ 503             5               Physics II Lab
+ 601             6               Classroom
+ 602             6               Classroom
+ 603             6               Creative Computing Club Room

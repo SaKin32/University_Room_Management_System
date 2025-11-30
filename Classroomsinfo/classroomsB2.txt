@@ -1,0 +1,9 @@
+Building No. : 2
+Room No.        Floor               Type
+--------------------------------------------------------------
+  401             4               Classroom
+  402             4               Classroom
+  403             4               Classroom
+  502             5               Classroom
+  601             6               Classroom
+  602             6               Classroom

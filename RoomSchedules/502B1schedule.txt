@@ -1,0 +1,49 @@
+502 B1 5 Sunday   8:00 -  9:15 AM -> CHE 101 (55/1)
+502 B1 5 Sunday   9:15 - 10:30 AM -> CSE 103 (55/1)
+Slot 3 -> BOOKED
+502 B1 5 Sunday  11:45 -  1:00 PM -> CSE 231 (53/2)
+502 B1 5 Sunday   1:00 -  1:30 PM -> Prayer break
+502 B1 5 Sunday   1:30 -  2:45 PM -> CSE 209 (53/4)
+502 B1 5 Sunday   2:45 -  4:00 PM -> CSE 231 (53/4)
+502 B1 5 Sunday   4:00 -  5:15 PM -> MAT 231 (53/4)
+502 B1 5 Sunday   5:15 -  6:30 PM ->    -
+
+502 B1 5 Monday   8:00 -  9:15 AM -> MAT 102 (40/1)
+502 B1 5 Monday   9:15 - 10:30 AM -> PHY 103 (40/1)
+502 B1 5 Monday  10:30 - 11:45 AM -> EEE 203 (39/1)
+502 B1 5 Monday  11:45 -  1:00 PM -> MT 201 (39/1)
+502 B1 5 Monday   1:00 -  1:30 PM -> Prayer break
+502 B1 5 Monday   1:30 -  2:45 PM -> ENG 101 (56/3)
+502 B1 5 Monday   2:45 -  4:00 PM -> EEE 211 (54/3)
+502 B1 5 Monday   4:00 -  5:15 PM ->    -
+502 B1 5 Monday   5:15 -  6:30 PM ->    -
+
+502 B1 5 Tuesday   8:00 -  9:15 AM -> ENG 104 (41/1)
+502 B1 5 Tuesday   9:15 - 10:30 AM -> ENG 104 (41/1)
+502 B1 5 Tuesday  10:30 - 11:45 AM -> HUM 101 (41/1)
+502 B1 5 Tuesday  11:45 -  1:00 PM -> CSE 201 (39/1)
+502 B1 5 Tuesday   1:00 -  1:30 PM -> Prayer break
+502 B1 5 Tuesday   1:30 -  2:45 PM -> EEE 203 (39/1)
+502 B1 5 Tuesday   2:45 -  4:00 PM -> EEE 201 (39/1)
+502 B1 5 Tuesday   4:00 -  5:15 PM -> MAT 103 (39/1)
+502 B1 5 Tuesday   5:15 -  6:30 PM ->    -
+
+502 B1 5 Wednesday   8:00 -  9:15 AM -> ENG 101 (41/1)
+502 B1 5 Wednesday   9:15 - 10:30 AM -> BNG 101 (41/1)
+502 B1 5 Wednesday  10:30 - 11:45 AM -> EEE 101 (41/1)
+502 B1 5 Wednesday  11:45 -  1:00 PM -> MAT 101 (41/1)
+502 B1 5 Wednesday   1:00 -  1:30 PM -> Prayer break
+502 B1 5 Wednesday   1:30 -  2:45 PM -> ECO 101 (40/1)
+502 B1 5 Wednesday   2:45 -  4:00 PM -> PHY 201 (39/1)
+502 B1 5 Wednesday   4:00 -  5:15 PM -> MT 201 (39/1)
+502 B1 5 Wednesday   5:15 -  6:30 PM ->    -
+
+502 B1 5 Thursday   8:00 -  9:15 AM ->    -
+502 B1 5 Thursday   9:15 - 10:30 AM ->    -
+502 B1 5 Thursday  10:30 - 11:45 AM ->    -
+502 B1 5 Thursday  11:45 -  1:00 PM -> PHY 101 (41/1)
+502 B1 5 Thursday   1:00 -  1:30 PM -> Prayer break
+502 B1 5 Thursday   1:30 -  2:45 PM -> EEE 101 (41/1)
+502 B1 5 Thursday   2:45 -  4:00 PM -> ENG 101 (41/1)
+502 B1 5 Thursday   4:00 -  5:15 PM -> BNG 101 (41/1)
+502 B1 5 Thursday   5:15 -  6:30 PM ->    -

@@ -1,0 +1,6 @@
+ Building No. : 2
+ Room No.        Floor           Type
+ ----------------------------------------------------------------------
+   202             2          Database & Operating System Lab
+   301             3          Internet Technology & Web Programming Lab
+   503             5          Physics II Lab

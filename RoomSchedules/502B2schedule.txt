@@ -1,0 +1,49 @@
+502 B2 5 Sunday   8:00 -  9:15 AM ->    -
+502 B2 5 Sunday   9:15 - 10:30 AM -> CHM 1102 (11/1)
+502 B2 5 Sunday  10:30 - 11:45 AM -> CHM 1102 (11/1)
+502 B2 5 Sunday  11:45 -  1:00 PM -> BNG 1101 (10/1)
+502 B2 5 Sunday   1:00 -  1:30 PM -> Prayer break
+502 B2 5 Sunday   1:30 -  2:45 PM -> BNG 1101 (10/1)
+502 B2 5 Sunday   2:45 -  4:00 PM -> CHM 1102 (11/2)
+502 B2 5 Sunday   4:00 -  5:15 PM -> CHM 1102 (11/2)
+502 B2 5 Sunday   5:15 -  6:30 PM ->    -
+
+502 B2 5 Monday   8:00 -  9:15 AM -> CHM 1101 (10/1)
+502 B2 5 Monday   9:15 - 10:30 AM -> PHY 1101 (10/1)
+502 B2 5 Monday  10:30 - 11:45 AM ->    -
+502 B2 5 Monday  11:45 -  1:00 PM ->    -
+502 B2 5 Monday   1:00 -  1:30 PM -> Prayer break
+502 B2 5 Monday   1:30 -  2:45 PM ->    -
+502 B2 5 Monday   2:45 -  4:00 PM ->    -
+502 B2 5 Monday   4:00 -  5:15 PM ->    -
+502 B2 5 Monday   5:15 -  6:30 PM ->    -
+
+502 B2 5 Tuesday   8:00 -  9:15 AM -> MTH 1101 (10/1)
+502 B2 5 Tuesday   9:15 - 10:30 AM -> CHM 1101 (10/1)
+502 B2 5 Tuesday  10:30 - 11:45 AM -> PHY 1102 (11/1)
+502 B2 5 Tuesday  11:45 -  1:00 PM -> PHY 1102 (11/1)
+502 B2 5 Tuesday   1:00 -  1:30 PM -> Prayer break
+502 B2 5 Tuesday   1:30 -  2:45 PM ->    -
+502 B2 5 Tuesday   2:45 -  4:00 PM ->    -
+502 B2 5 Tuesday   4:00 -  5:15 PM ->    -
+502 B2 5 Tuesday   5:15 -  6:30 PM ->    -
+
+502 B2 5 Wednesday   8:00 -  9:15 AM -> MTH 1101 (10/1)
+502 B2 5 Wednesday   9:15 - 10:30 AM ->    -
+502 B2 5 Wednesday  10:30 - 11:45 AM ->    -
+502 B2 5 Wednesday  11:45 -  1:00 PM ->    -
+502 B2 5 Wednesday   1:00 -  1:30 PM -> Prayer break
+502 B2 5 Wednesday   1:30 -  2:45 PM -> MAT 111 (55/4)
+502 B2 5 Wednesday   2:45 -  4:00 PM -> CSE 103 (55/4)
+502 B2 5 Wednesday   4:00 -  5:15 PM -> CSE 209 (53/3)
+502 B2 5 Wednesday   5:15 -  6:30 PM ->    -
+
+502 B2 5 Thursday   8:00 -  9:15 AM -> ECO 201 (54/3)
+502 B2 5 Thursday   9:15 - 10:30 AM -> CSE 205 (54/3)
+502 B2 5 Thursday  10:30 - 11:45 AM ->    -
+502 B2 5 Thursday  11:45 -  1:00 PM ->    -
+502 B2 5 Thursday   1:00 -  1:30 PM -> Prayer break
+502 B2 5 Thursday   1:30 -  2:45 PM -> CSE 111 (55/4)
+502 B2 5 Thursday   2:45 -  4:00 PM -> CSE 221 (54/1)
+502 B2 5 Thursday   4:00 -  5:15 PM ->    -
+502 B2 5 Thursday   5:15 -  6:30 PM ->    -

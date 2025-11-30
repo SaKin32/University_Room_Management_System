@@ -1,0 +1,19 @@
+Details for Building 1:
+Room No.      Floor                     Type
+--------------------------------------------------------------
+101             1               Admission Office & Management
+201             2               Faculty Room
+202             2               CSE Dept. Chairman's Room
+203             2               Classroom
+301             3               Faculty Room
+302             3               Networking & Mobile Vision Lab
+303             3               Classroom
+401             4               Electrical Circuit I Lab
+402             4               Software Engineer & System Design Lab
+403             4               Faculty Room
+501             5               EEE Dept. Chairman's Room
+502             5               Classroom
+503             5               Debating Club, Sports Club Room
+601             6               Power Electronics & System Protection Lab
+602             6               Classroom
+603             6               Classroom

@@ -1,0 +1,17 @@
+Details for Building 3:
+Room No.      Floor                     Type
+--------------------------------------------------------------
+ 201             2               Medicel Centre
+ 202             2               Data Structure & Algorithm Lab
+ 203             2               Classroom
+ 301             3               Liberary Manager Room
+ 302             3               Central Liberary
+ 401             4               Reading Room
+ 402             4               Reading Room
+ 403             4               Reading Room
+ 501             5               Civil Engg. Dept. Chairman's Room
+ 502             5               Classroom
+ 503             5               Classroom
+ 601             6               Research and Publication Office
+ 602             6               System Programing /Problem Solving Club Room
+ 603             6               Cultur

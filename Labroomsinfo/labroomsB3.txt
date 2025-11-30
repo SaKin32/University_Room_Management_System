@@ -1,0 +1,4 @@
+Building No. : 3
+Room No.        Floor           Type
+----------------------------------------------------------------------
+  202             2         Data Structure & Algorithm Lab

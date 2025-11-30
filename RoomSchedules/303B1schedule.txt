@@ -1,0 +1,49 @@
+303 B1 3 Sunday   8:00 -  9:15 AM -> CSE 101 (56/4)
+303 B1 3 Sunday   9:15 - 10:30 AM -> ENG 101 (56/4)
+303 B1 3 Sunday  10:30 - 11:45 AM -> PHY 101 (56/4)
+303 B1 3 Sunday  11:45 -  1:00 PM ->    -
+303 B1 3 Sunday   1:00 -  1:30 PM -> Prayer break
+303 B1 3 Sunday   1:30 -  2:45 PM ->    -
+303 B1 3 Sunday   2:45 -  4:00 PM ->    -
+303 B1 3 Sunday   4:00 -  5:15 PM ->    -
+303 B1 3 Sunday   5:15 -  6:30 PM ->    -
+
+303 B1 3 Monday   8:00 -  9:15 AM ->    -
+303 B1 3 Monday   9:15 - 10:30 AM ->    -
+303 B1 3 Monday  10:30 - 11:45 AM -> CSE 205 (54/2)
+303 B1 3 Monday  11:45 -  1:00 PM ->    -
+303 B1 3 Monday   1:00 -  1:30 PM -> Prayer break
+303 B1 3 Monday   1:30 -  2:45 PM -> MAT 101 (56/2)
+303 B1 3 Monday   2:45 -  4:00 PM -> CSE 101 (56/2)
+303 B1 3 Monday   4:00 -  5:15 PM ->    -
+303 B1 3 Monday   5:15 -  6:30 PM ->    -
+
+303 B1 3 Tuesday   8:00 -  9:15 AM ->    -
+303 B1 3 Tuesday   9:15 - 10:30 AM -> CSE 205 (54/3)
+303 B1 3 Tuesday  10:30 - 11:45 AM -> EEE 211 (54/2)
+303 B1 3 Tuesday  11:45 -  1:00 PM ->    -
+303 B1 3 Tuesday   1:00 -  1:30 PM -> Prayer break
+303 B1 3 Tuesday   1:30 -  2:45 PM -> MAT 111 (55/2)
+303 B1 3 Tuesday   2:45 -  4:00 PM -> CSE 111 (55/2)
+303 B1 3 Tuesday   4:00 -  5:15 PM -> ECO 201 (54/1)
+303 B1 3 Tuesday   5:15 -  6:30 PM ->    -
+
+303 B1 3 Wednesday   8:00 -  9:15 AM ->    -
+303 B1 3 Wednesday   9:15 - 10:30 AM -> ENG 101 (56/4)
+303 B1 3 Wednesday  10:30 - 11:45 AM -> MAT 101 (56/4)
+303 B1 3 Wednesday  11:45 -  1:00 PM -> PHY 101 (56/4)
+303 B1 3 Wednesday   1:00 -  1:30 PM -> Prayer break
+303 B1 3 Wednesday   1:30 -  2:45 PM ->    -
+303 B1 3 Wednesday   2:45 -  4:00 PM ->    -
+303 B1 3 Wednesday   4:00 -  5:15 PM ->    -
+303 B1 3 Wednesday   5:15 -  6:30 PM ->    -
+
+303 B1 3 Thursday   8:00 -  9:15 AM -> PHY 101 (56/3)
+303 B1 3 Thursday   9:15 - 10:30 AM -> CSE 101 (56/3)
+303 B1 3 Thursday  10:30 - 11:45 AM -> MAT 101 (56/3)
+303 B1 3 Thursday  11:45 -  1:00 PM -> BHC 101 (56/3)
+303 B1 3 Thursday   1:00 -  1:30 PM -> Prayer break
+303 B1 3 Thursday   1:30 -  2:45 PM ->    -
+303 B1 3 Thursday   2:45 -  4:00 PM -> MAT 101 (56/4)
+303 B1 3 Thursday   4:00 -  5:15 PM -> BAN 101 (56/4)
+303 B1 3 Thursday   5:15 -  6:30 PM -> BHC 101 (56/4)

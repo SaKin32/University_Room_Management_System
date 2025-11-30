@@ -1,0 +1,49 @@
+402 B2 4 Sunday   8:00 -  9:15 AM ->    -
+402 B2 4 Sunday   9:15 - 10:30 AM -> CSE 221 (54/3)
+402 B2 4 Sunday  10:30 - 11:45 AM -> EEE 211 (54/3)
+402 B2 4 Sunday  11:45 -  1:00 PM -> MAT 221 (54/3)
+402 B2 4 Sunday   1:00 -  1:30 PM -> Prayer break
+402 B2 4 Sunday   1:30 -  2:45 PM -> CSE 221 (54/2)
+402 B2 4 Sunday   2:45 -  4:00 PM -> ECO 201 (54/2)
+402 B2 4 Sunday   4:00 -  5:15 PM -> EEE 211 (54/2)
+402 B2 4 Sunday   5:15 -  6:30 PM ->    -
+
+402 B2 4 Monday   8:00 -  9:15 AM -> CSE 102 (56/4)
+402 B2 4 Monday   9:15 - 10:30 AM -> CSE 102 (56/4)
+402 B2 4 Monday  10:30 - 11:45 AM -> MAT 101 (56/1)
+402 B2 4 Monday  11:45 -  1:00 PM -> CSE 221 (54/2)
+402 B2 4 Monday   1:00 -  1:30 PM -> Prayer break
+402 B2 4 Monday   1:30 -  2:45 PM ->    -
+402 B2 4 Monday   2:45 -  4:00 PM ->    -
+402 B2 4 Monday   4:00 -  5:15 PM ->    -
+402 B2 4 Monday   5:15 -  6:30 PM ->    -
+
+402 B2 4 Tuesday   8:00 -  9:15 AM -> CSE 207 (53/3)
+402 B2 4 Tuesday   9:15 - 10:30 AM -> CSE 215 (53/3)
+402 B2 4 Tuesday  10:30 - 11:45 AM -> CSE 207 (53/3)
+402 B2 4 Tuesday  11:45 -  1:00 PM -> CHE 101 (55/2)
+402 B2 4 Tuesday   1:00 -  1:30 PM -> Prayer break
+402 B2 4 Tuesday   1:30 -  2:45 PM -> CSE 231 (53/2)
+402 B2 4 Tuesday   2:45 -  4:00 PM -> MAT 231 (53/2)
+402 B2 4 Tuesday   4:00 -  5:15 PM ->    -
+402 B2 4 Tuesday   5:15 -  6:30 PM ->    -
+
+402 B2 4 Wednesday   8:00 -  9:15 AM ->    -
+402 B2 4 Wednesday   9:15 - 10:30 AM ->    -
+402 B2 4 Wednesday  10:30 - 11:45 AM -> MAT 221 (54/1)
+402 B2 4 Wednesday  11:45 -  1:00 PM ->    -
+402 B2 4 Wednesday   1:00 -  1:30 PM -> Prayer break
+402 B2 4 Wednesday   1:30 -  2:45 PM ->    -
+402 B2 4 Wednesday   2:45 -  4:00 PM ->    -
+402 B2 4 Wednesday   4:00 -  5:15 PM -> MAT 221 (54/2)
+402 B2 4 Wednesday   5:15 -  6:30 PM ->    -
+
+402 B2 4 Thursday   8:00 -  9:15 AM -> EEE 203 (39/1)
+402 B2 4 Thursday   9:15 - 10:30 AM -> MAT 103 (39/1)
+402 B2 4 Thursday  10:30 - 11:45 AM -> PHY 201 (39/1)
+402 B2 4 Thursday  11:45 -  1:00 PM ->    -
+402 B2 4 Thursday   1:00 -  1:30 PM -> Prayer break
+402 B2 4 Thursday   1:30 -  2:45 PM -> ECO 201 (54/2)
+402 B2 4 Thursday   2:45 -  4:00 PM -> MAT 221 (54/2)
+402 B2 4 Thursday   4:00 -  5:15 PM -> CSE 205 (54/2)
+402 B2 4 Thursday   5:15 -  6:30 PM ->    -

@@ -1,0 +1,49 @@
+502 B3 5 Sunday   8:00 -  9:15 AM -> PHY 101 (56/1)
+502 B3 5 Sunday   9:15 - 10:30 AM -> PHY 101 (56/1)
+502 B3 5 Sunday  10:30 - 11:45 AM -> ENG 101 (56/1)
+502 B3 5 Sunday  11:45 -  1:00 PM ->    -
+502 B3 5 Sunday   1:00 -  1:30 PM -> Prayer break
+502 B3 5 Sunday   1:30 -  2:45 PM ->    -
+502 B3 5 Sunday   2:45 -  4:00 PM ->    -
+502 B3 5 Sunday   4:00 -  5:15 PM ->    -
+502 B3 5 Sunday   5:15 -  6:30 PM ->    -
+
+502 B3 5 Monday   8:00 -  9:15 AM ->    -
+502 B3 5 Monday   9:15 - 10:30 AM ->    -
+502 B3 5 Monday  10:30 - 11:45 AM -> EEE 477 (35/1)
+502 B3 5 Monday  11:45 -  1:00 PM ->    -
+502 B3 5 Monday   1:00 -  1:30 PM -> Prayer break
+502 B3 5 Monday   1:30 -  2:45 PM -> EEE 493 (34/1)
+502 B3 5 Monday   2:45 -  4:00 PM -> EEE 481 (34/1)
+502 B3 5 Monday   4:00 -  5:15 PM ->    -
+502 B3 5 Monday   5:15 -  6:30 PM ->    -
+
+502 B3 5 Tuesday   8:00 -  9:15 AM ->    -
+502 B3 5 Tuesday   9:15 - 10:30 AM ->    -
+502 B3 5 Tuesday  10:30 - 11:45 AM -> EEE 103 (40/1)
+502 B3 5 Tuesday  11:45 -  1:00 PM -> MAT 102 (40/1)
+502 B3 5 Tuesday   1:00 -  1:30 PM -> Prayer break
+502 B3 5 Tuesday   1:30 -  2:45 PM -> ENG 103 (40/1)
+502 B3 5 Tuesday   2:45 -  4:00 PM -> PHY 103 (40/1)
+502 B3 5 Tuesday   4:00 -  5:15 PM -> EEE 493 (34/1)
+502 B3 5 Tuesday   5:15 -  6:30 PM ->    -
+
+502 B3 5 Wednesday   8:00 -  9:15 AM ->    -
+502 B3 5 Wednesday   9:15 - 10:30 AM ->    -
+502 B3 5 Wednesday  10:30 - 11:45 AM -> MAT 201 (38/1)
+502 B3 5 Wednesday  11:45 -  1:00 PM -> ACT 201 (38/1)
+502 B3 5 Wednesday   1:00 -  1:30 PM -> Prayer break
+502 B3 5 Wednesday   1:30 -  2:45 PM -> MGT 201 (38/1)
+502 B3 5 Wednesday   2:45 -  4:00 PM -> EEE 493 (34/1)
+502 B3 5 Wednesday   4:00 -  5:15 PM ->    -
+502 B3 5 Wednesday   5:15 -  6:30 PM ->    -
+
+502 B3 5 Thursday   8:00 -  9:15 AM ->    -
+502 B3 5 Thursday   9:15 - 10:30 AM -> EEE 475 (34/1)
+502 B3 5 Thursday  10:30 - 11:45 AM -> EEE 481 (34/1)
+502 B3 5 Thursday  11:45 -  1:00 PM ->    -
+502 B3 5 Thursday   1:00 -  1:30 PM -> Prayer break
+502 B3 5 Thursday   1:30 -  2:45 PM -> EEE 101 (55/1)
+502 B3 5 Thursday   2:45 -  4:00 PM -> MAT 111 (55/1)
+502 B3 5 Thursday   4:00 -  5:15 PM ->    -
+502 B3 5 Thursday   5:15 -  6:30 PM ->    -

@@ -1,0 +1,49 @@
+603 B1 6 Sunday    8:00 -  9:15 AM -> ENG 101 (56/2)
+603 B1 6 Sunday    9:15 - 10:30 AM -> PHY 101 (56/2)
+603 B1 6 Sunday   10:30 - 11:45 AM -> BHC 101 (56/2)
+603 B1 6 Sunday   11:45 -  1:00 PM ->    -
+603 B1 6 Sunday    1:00 -  1:30 PM -> Prayer break
+603 B1 6 Sunday    1:30 -  2:45 PM ->    -
+603 B1 6 Sunday    2:45 -  4:00 PM ->    -
+603 B1 6 Sunday    4:00 -  5:15 PM ->    -
+603 B1 6 Sunday    5:15 -  6:30 PM ->    -
+
+603 B1 6 Monday    8:00 -  9:15 AM ->    -
+603 B1 6 Monday    9:15 - 10:30 AM ->    -
+603 B1 6 Monday   10:30 - 11:45 AM -> MAT 231 (53/2)
+603 B1 6 Monday   11:45 -  1:00 PM -> CSE 215 (53/2)
+603 B1 6 Monday    1:00 -  1:30 PM -> Prayer break
+603 B1 6 Monday    1:30 -  2:45 PM ->    -
+603 B1 6 Monday    2:45 -  4:00 PM ->    -
+603 B1 6 Monday    4:00 -  5:15 PM ->    -
+603 B1 6 Monday    5:15 -  6:30 PM ->    -
+
+603 B1 6 Tuesday    8:00 -  9:15 AM ->    -
+603 B1 6 Tuesday    9:15 - 10:30 AM ->    -
+603 B1 6 Tuesday   10:30 - 11:45 AM -> BHC 101 (56/4)
+603 B1 6 Tuesday   11:45 -  1:00 PM -> CSE 101 (56/4)
+603 B1 6 Tuesday    1:00 -  1:30 PM -> Prayer break
+603 B1 6 Tuesday    1:30 -  2:45 PM ->    -
+603 B1 6 Tuesday    2:45 -  4:00 PM -> CSE 207 (53/4)
+603 B1 6 Tuesday    4:00 -  5:15 PM ->    -
+603 B1 6 Tuesday    5:15 -  6:30 PM ->    -
+
+603 B1 6 Wednesday    8:00 -  9:15 AM ->    -
+603 B1 6 Wednesday    9:15 - 10:30 AM ->    -
+603 B1 6 Wednesday   10:30 - 11:45 AM -> MAT 111 (55/1)
+603 B1 6 Wednesday   11:45 -  1:00 PM -> EEE 101 (55/1)
+603 B1 6 Wednesday    1:00 -  1:30 PM -> Prayer break
+603 B1 6 Wednesday    1:30 -  2:45 PM ->    -
+603 B1 6 Wednesday    2:45 -  4:00 PM ->    -
+603 B1 6 Wednesday    4:00 -  5:15 PM ->    -
+603 B1 6 Wednesday    5:15 -  6:30 PM ->    -
+
+603 B1 6 Thursday    8:00 -  9:15 AM ->    -
+603 B1 6 Thursday    9:15 - 10:30 AM ->    -
+603 B1 6 Thursday   10:30 - 11:45 AM -> MAT 111 (55/4)
+603 B1 6 Thursday   11:45 -  1:00 PM -> EEE 101 (55/4)
+603 B1 6 Thursday    1:00 -  1:30 PM -> Prayer break
+603 B1 6 Thursday    1:30 -  2:45 PM -> CSE 221 (54/4)
+603 B1 6 Thursday    2:45 -  4:00 PM -> CE 1112 (11/2)
+603 B1 6 Thursday    4:00 -  5:15 PM ->    -
+603 B1 6 Thursday    5:15 -  6:30 PM ->    -

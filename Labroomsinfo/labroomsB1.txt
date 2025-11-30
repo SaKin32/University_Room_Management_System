@@ -1,0 +1,7 @@
+ Building No. : 1
+ Room No.        Floor           Type
+ ----------------------------------------------------------------------
+   302             3          Networking & Mobile Vision Lab
+   401             4          Electrical Circuit I Lab
+   402             4          Software Engineer & System Design Lab
+   601             6          Power Electronics & System Protection Lab

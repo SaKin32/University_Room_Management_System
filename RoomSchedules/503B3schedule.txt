@@ -1,0 +1,49 @@
+503 B3 5 Sunday   8:00 -  9:15 AM ->    -
+503 B3 5 Sunday   9:15 - 10:30 AM -> CE 2251 (8/1)
+503 B3 5 Sunday  10:30 - 11:45 AM -> CE 2251 (8/1)
+503 B3 5 Sunday  11:45 -  1:00 PM -> CE 2214 (8/1)
+503 B3 5 Sunday   1:00 -  1:30 PM -> Prayer break
+503 B3 5 Sunday   1:30 -  2:45 PM -> CE 2214 (8/1)
+503 B3 5 Sunday   2:45 -  4:00 PM -> CE 2233 (8/1)
+503 B3 5 Sunday   4:00 -  5:15 PM ->    -
+503 B3 5 Sunday   5:15 -  6:30 PM ->    -
+
+503 B3 5 Monday   8:00 -  9:15 AM ->    -
+503 B3 5 Monday   9:15 - 10:30 AM ->    -
+503 B3 5 Monday  10:30 - 11:45 AM -> MTH 2201 (8/1)
+503 B3 5 Monday  11:45 -  1:00 PM -> CE 2251 (8/1)
+503 B3 5 Monday   1:00 -  1:30 PM -> Prayer break
+503 B3 5 Monday   1:30 -  2:45 PM -> CE 2233 (8/1)
+503 B3 5 Monday   2:45 -  4:00 PM -> CE 2233 (8/1)
+503 B3 5 Monday   4:00 -  5:15 PM ->    -
+503 B3 5 Monday   5:15 -  6:30 PM ->    -
+
+503 B3 5 Tuesday   8:00 -  9:15 AM ->    -
+503 B3 5 Tuesday   9:15 - 10:30 AM ->    -
+503 B3 5 Tuesday  10:30 - 11:45 AM -> CE 2231 (8/1)
+503 B3 5 Tuesday  11:45 -  1:00 PM -> MTH 2201 (8/1)
+503 B3 5 Tuesday   1:00 -  1:30 PM -> Prayer break
+503 B3 5 Tuesday   1:30 -  2:45 PM -> ECO 2201 (8/1)
+503 B3 5 Tuesday   2:45 -  4:00 PM ->    -
+503 B3 5 Tuesday   4:00 -  5:15 PM ->    -
+503 B3 5 Tuesday   5:15 -  6:30 PM ->    -
+
+503 B3 5 Wednesday   8:00 -  9:15 AM ->    -
+503 B3 5 Wednesday   9:15 - 10:30 AM ->    -
+503 B3 5 Wednesday  10:30 - 11:45 AM -> ICT 2202 (8/1)
+503 B3 5 Wednesday  11:45 -  1:00 PM -> ICT 2202 (8/1)
+503 B3 5 Wednesday   1:00 -  1:30 PM -> Prayer break
+503 B3 5 Wednesday   1:30 -  2:45 PM -> ECO 2201 (8/1)
+503 B3 5 Wednesday   2:45 -  4:00 PM ->    -
+503 B3 5 Wednesday   4:00 -  5:15 PM ->    -
+503 B3 5 Wednesday   5:15 -  6:30 PM ->    -
+
+503 B3 5 Thursday   8:00 -  9:15 AM ->    -
+503 B3 5 Thursday   9:15 - 10:30 AM ->    -
+503 B3 5 Thursday  10:30 - 11:45 AM -> CE 2231 (8/1)
+503 B3 5 Thursday  11:45 -  1:00 PM ->    -
+503 B3 5 Thursday   1:00 -  1:30 PM -> Prayer break
+503 B3 5 Thursday   1:30 -  2:45 PM ->    -
+503 B3 5 Thursday   2:45 -  4:00 PM ->    -
+503 B3 5 Thursday   4:00 -  5:15 PM ->    -
+503 B3 5 Thursday   5:15 -  6:30 PM ->    -

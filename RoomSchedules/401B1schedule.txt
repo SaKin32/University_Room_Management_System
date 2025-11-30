@@ -1,0 +1,49 @@
+401 B1 4 Sunday   8:00 -  9:15 AM ->    -
+401 B1 4 Sunday   9:15 - 10:30 AM ->    -
+401 B1 4 Sunday  10:30 - 11:45 AM -> EEE 102 (55/1)
+401 B1 4 Sunday  11:45 -  1:00 PM -> EEE 102 (55/1)
+401 B1 4 Sunday   1:00 -  1:30 PM -> Prayer break
+401 B1 4 Sunday   1:30 -  2:45 PM ->    -
+401 B1 4 Sunday   2:45 -  4:00 PM ->    -
+401 B1 4 Sunday   4:00 -  5:15 PM ->    -
+401 B1 4 Sunday   5:15 -  6:30 PM ->    -
+
+401 B1 4 Monday   8:00 -  9:15 AM ->    -
+401 B1 4 Monday   9:15 - 10:30 AM ->    -
+401 B1 4 Monday  10:30 - 11:45 AM -> EEE 104 (40/2)
+401 B1 4 Monday  11:45 -  1:00 PM -> EEE 104 (40/2)
+401 B1 4 Monday   1:00 -  1:30 PM -> Prayer break
+401 B1 4 Monday   1:30 -  2:45 PM ->    -
+401 B1 4 Monday   2:45 -  4:00 PM ->    -
+401 B1 4 Monday   4:00 -  5:15 PM ->    -
+401 B1 4 Monday   5:15 -  6:30 PM ->    -
+
+401 B1 4 Tuesday   8:00 -  9:15 AM ->    -
+401 B1 4 Tuesday   9:15 - 10:30 AM ->    -
+401 B1 4 Tuesday  10:30 - 11:45 AM -> EEE 212 (54/3)
+401 B1 4 Tuesday  11:45 -  1:00 PM -> EEE 212 (54/3)
+401 B1 4 Tuesday   1:00 -  1:30 PM -> Prayer break
+401 B1 4 Tuesday   1:30 -  2:45 PM -> EEE 212 (54/1)
+401 B1 4 Tuesday   2:45 -  4:00 PM -> EEE 212 (54/1)
+401 B1 4 Tuesday   4:00 -  5:15 PM ->    -
+401 B1 4 Tuesday   5:15 -  6:30 PM ->    -
+
+401 B1 4 Wednesday   8:00 -  9:15 AM -> EEE 102 (55/2)
+401 B1 4 Wednesday   9:15 - 10:30 AM -> EEE 102 (55/2)
+401 B1 4 Wednesday  10:30 - 11:45 AM -> EEE 104 (40/1)
+401 B1 4 Wednesday  11:45 -  1:00 PM -> EEE 104 (40/1)
+401 B1 4 Wednesday   1:00 -  1:30 PM -> Prayer break
+401 B1 4 Wednesday   1:30 -  2:45 PM -> EEE 212 (54/2)
+401 B1 4 Wednesday   2:45 -  4:00 PM -> EEE 212 (54/2)
+401 B1 4 Wednesday   4:00 -  5:15 PM -> EEE 102 (55/4)
+401 B1 4 Wednesday   5:15 -  6:30 PM -> EEE 102 (55/4)
+
+401 B1 4 Thursday   8:00 -  9:15 AM -> EEE 102 (55/3)
+401 B1 4 Thursday   9:15 - 10:30 AM -> EEE 102 (55/3)
+401 B1 4 Thursday  10:30 - 11:45 AM -> EEE 212 (54/4)
+401 B1 4 Thursday  11:45 -  1:00 PM -> EEE 212 (54/4)
+401 B1 4 Thursday   1:00 -  1:30 PM -> Prayer break
+401 B1 4 Thursday   1:30 -  2:45 PM ->    -
+401 B1 4 Thursday   2:45 -  4:00 PM ->    -
+401 B1 4 Thursday   4:00 -  5:15 PM ->    -
+401 B1 4 Thursday   5:15 -  6:30 PM ->    -
