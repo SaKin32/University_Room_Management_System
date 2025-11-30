@@ -23,11 +23,12 @@ bool backToMainMenu = false;
 // Function to create a folder if it doesn't exist
 void createFolder(const string &folderName) {
 #ifdef _WIN32
-    system(("if not exist " + folderName + " mkdir " + folderName).c_str());
+    system(("if not exist " + folderName + " mkdir " + folderName).c_str());   
 #else
     system(("mkdir -p " + folderName).c_str());
 #endif
 }
+
 
 /* 
 Function to show info from a file.
@@ -40,10 +41,10 @@ void showInfoFromFile(string filename) {
         cout << "\n";
         return;
     }
-    string line;
+    string line;  // make a blank string variable
 
     // Display each line of the file on the screen
-    while (getline(file, line)) {
+    while (getline(file, line)) {   // read line one from file and then store this line in blank string variable
         cout << line << endl;
     }
     file.close();
@@ -129,7 +130,6 @@ void viewInfoMenu() {
     while(true) {
         system("CLS");  //screen clear
         int buildingChoice;
-
         cout << "\n\n";
         cout << "\t Select Building : \n\n";
         cout << "\t 1) Building 1 \n";
@@ -227,7 +227,10 @@ void viewInfoMenu() {
 
 // Function prototypes
 void roomBookingSystemMenu();
+// Function prototype
 void viewRoomBookingMenu();
+
+
 void showRoomScheduleWithBooking(string filename, string roomNo, string day);
 
 void showRoomScheduleWithBooking(string filename, string roomNo, string day) {
@@ -238,21 +241,25 @@ void showRoomScheduleWithBooking(string filename, string roomNo, string day) {
         return;
     }
 
-    vector<string> fullLines;
+    vector<string> allLines;
     string line;
 
-    while (getline(file, line))
-        fullLines.push_back(line);
-    file.close();
+    while (getline(file, line)) {
+        allLines.push_back(line);
+          }
 
-    vector<string> scheduleLines;
-    
-    for (auto &curr : fullLines) {
-        if (curr.find(day) != string::npos)
-            scheduleLines.push_back(curr);
-    }
+        file.close();
 
-    if (scheduleLines.empty()) {
+    vector<string> scheduleOnlyToday;
+    for (int i = 0; i < allLines.size(); i++) {
+        string currentLine = allLines[i];
+
+         if (currentLine.find(day) >= 0 && currentLine.find(day) < currentLine.length()) {
+            scheduleOnlyToday.push_back(currentLine);
+          }
+      }
+
+    if (scheduleOnlyToday.empty()) {
         cout << "No schedule found for " << day << "!\n";
         system("pause");
         return;
@@ -270,34 +277,40 @@ void showRoomScheduleWithBooking(string filename, string roomNo, string day) {
         cout << "      =================================\n\n";
 
         // Show schedule
-        int slotNum = 1;
+        int slotNumber = 1;
 
-        for (auto &curr : scheduleLines) {
-            size_t posArrow = curr.find("->");
+         for (int i = 0; i < scheduleOnlyToday.size(); i++) {
+            string currentLine = scheduleOnlyToday[i];
+
+            // Find "->" position
+            int arrowPos = currentLine.find("->");
+            string timeText = "";
             string status = "Not Available";
-            string timePart = "";
 
-            if (posArrow != string::npos) {
-                string afterArrow = curr.substr(posArrow + 2);
+            if (arrowPos >= 0 && arrowPos < currentLine.length()) {
+                string afterArrow = currentLine.substr(arrowPos + 2);   // next text line after arrow
 
-                if (afterArrow.find("-") != string::npos)
+                if (afterArrow.find("-") >= 0 && afterArrow.find("-") < afterArrow.length()) {
                     status = "Available";
+                }
 
-                size_t posDay = curr.find(day);
-                timePart = curr.substr(posDay + day.length(), posArrow - (posDay + day.length()));
-
-                while (!timePart.empty() && timePart[0] == ' ') 
-                     timePart.erase(0,1);
-                while (!timePart.empty() && timePart.back() == ' ') 
-                     timePart.pop_back();
+                int dayPos = currentLine.find(day);
+                timeText = currentLine.substr(dayPos + day.length(), arrowPos - (dayPos + day.length()));
             }
 
+            // Remove spaces
+            while (!timeText.empty() && timeText[0] == ' ')
+                timeText.erase(0, 1);
+            while (!timeText.empty() && timeText.back() == ' ')
+                timeText.pop_back();
+
+            // Check if already booked
             string key = roomNo + day;
-            if (bookedSlots[key].count(slotNum))
+            if (bookedSlots[key].count(slotNumber))     // bookedSlots = map<string,set<int>> 
                 status = "Booked";
 
-            printf("%d. %-17s   |  %s\n", slotNum, timePart.c_str(), status.c_str());
-            slotNum++;
+            printf("%d. %-17s   |  %s\n", slotNumber, timeText.c_str(), status.c_str());
+            slotNumber++;
         }
 
         // Ask for timeslot
@@ -313,28 +326,32 @@ void showRoomScheduleWithBooking(string filename, string roomNo, string day) {
             continue;
         }
 
-        // **CORRECTED: 0 returns to Available Rooms list**
         if (choice == 0) {
             return;  // no flags, just return to caller to show room list
         }
 
-        if (choice < 1 || choice > scheduleLines.size()) {
-            cout << "Invalid number! Please input valid number.\n";
+        // Input range check
+        if (choice < 1 || choice > scheduleOnlyToday.size()) {
+            cout << "Invalid slot! Try again.\n";
             system("pause");
             continue;
         }
 
+        // Already booked slot check
         string key = roomNo + day;
         if (bookedSlots[key].count(choice)) {
-            cout << "\nThis timeslot is already booked!\n";
+            cout << "This slot is already booked!\n";
             system("pause");
             continue;
         }
 
-        size_t posArrow = scheduleLines[choice - 1].find("->");
-        string afterArrow = scheduleLines[choice - 1].substr(posArrow + 2);
-        if (afterArrow.find("-") == string::npos) {
-            cout << "\nThis timeslot is not available!\n";
+        // Check availability
+        string chosenLine = scheduleOnlyToday[choice - 1];
+        int arrowPos = chosenLine.find("->");
+        string afterArrow = chosenLine.substr(arrowPos + 2);
+
+        if (afterArrow.find("-") < 0) {
+            cout << "This timeslot is not available!\n";
             system("pause");
             continue;
         }
@@ -346,6 +363,7 @@ void showRoomScheduleWithBooking(string filename, string roomNo, string day) {
 
         string bookingFile = "RoomBookings/" + roomNo + ".txt";
         ofstream bookingOut(bookingFile, ios::app);
+
         bookingOut << "BookingID: " << bookingID
                    << " | Day: " << day
                    << " | Slot: " << choice
@@ -381,7 +399,7 @@ void viewTimeScheduleMenu() {
 
     char nextAction = ' ';  //global inside function
 
-    BuildingMenu:  ;
+    BuildingMenu:  ;   // Goto label to re-display the building selection menu
 
     // Building selection loop
     while(true) {
@@ -412,7 +430,7 @@ void viewTimeScheduleMenu() {
         while (true) {
             system("CLS");
             int roomType;
-            cout << "\t Building " << buildingChoice << ": Which type of room do you want to see?\n";
+            cout << "\t Building " << buildingChoice << ": Which type of room want to see?\n";
             cout << "\t 1) Classroom\n";
             cout << "\t 2) Lab Room\n";
             cout << "\t 3) Back\n\n";
@@ -449,15 +467,16 @@ void viewTimeScheduleMenu() {
 
                 // Validate room number exists
                 ifstream file(roomFile);
-                    string line;
-                    bool roomFound = false;
-                    while(getline(file, line)) {
-                        if(line.find(roomNo) != string::npos) {
-                            roomFound = true;
-                            break;
-                        }
+                string line;
+                bool roomFound = false;
+                while (getline(file, line)) {
+                    
+                    if (line.find(roomNo) >= 0 && line.find(roomNo) < line.length()) {
+                        roomFound = true;
+                        break;
                     }
-                    file.close();
+                }
+                file.close();
 
                     if(!roomFound) {
                         cout << "\n" << roomNo << " class room is not found! Please press a valid classroom from this list.\n";
@@ -466,6 +485,7 @@ void viewTimeScheduleMenu() {
                     }
                     break; // Valid room number
                 }
+
                 if(roomNo == "0") 
                   break;
  
@@ -485,20 +505,21 @@ void viewTimeScheduleMenu() {
                     for (int i = 1; i < dayInput.size(); i++)
                         dayInput[i] = tolower(dayInput[i]);
 
-                    for (auto d : validDays) {
-                        if (d == dayInput) {
-                            validDay = true;
-                            break;
-                        }
-                    }
+                    validDay = false; // assume wrong input
+                    for (int i = 0; i < 7; i++) {
+                       if (validDays[i] == dayInput) {
+                            validDay = true; // found a valid day
+                            break;           // stop checking further
+                             }
+                         }
 
-                    if (!validDay)
-                        cout << "Invalid day! Please try again.\n";
-                        cout << "\n";
-               }
+                         if (!validDay)
+                         cout << "Invalid day! Please try again.\n";
+                         cout << "\n";
+                              }
 
-                if (!validDay)
-                    continue;  //back pressed
+                        if (!validDay)
+                         break;  //back pressed 
 
                 //Make & show schedule files    
                 string scheduleFile = "RoomSchedules/" + roomNo + "B" + to_string(buildingChoice) + "schedule.txt";
@@ -506,7 +527,6 @@ void viewTimeScheduleMenu() {
                 showRoomSchedule(scheduleFile, roomNo, dayInput);
 
                // Ask user what to do next
-
                 while (true) { // input loop
                 char actionChoice;
                 cout << "\n\n\nDo you want to see another building info? (Y/N) ";
@@ -515,7 +535,7 @@ void viewTimeScheduleMenu() {
                 cin >> actionChoice;
 
                 if(actionChoice == '0') {
-                    continue; // Back to room list
+                    break; // Back to room list
                 } else if(actionChoice == 'Y' || actionChoice == 'y') {
                     goto BuildingMenu; // Jump to building selection
                 } else if(actionChoice == 'N' || actionChoice == 'n') {
@@ -526,18 +546,13 @@ void viewTimeScheduleMenu() {
                 } else {
                     cout << "Invalid input! Try again (Y/N).\n";
                     system("pause");
-                   continue;
+                    continue;
                 }
-            } // end room selection loop
-        } // end room type loop
-    } // end building selection loop
-  }
+            }
+        } // end room selection loop
+    } // end room type loop
+  } // end building selection loop
 }
-
-
-// Function prototype
-void viewRoomBookingMenu();
-
 
 
 void cancelBookingRoom() {
@@ -555,7 +570,8 @@ void cancelBookingRoom() {
         cout << "Enter Booking ID to cancel or 0 to go back: ";
         cin >> bookingID;
 
-        if (bookingID == "0") return;
+        if (bookingID == "0") 
+         return;
 
         auto it = bookedIDs.find(bookingID);
         if (it != bookedIDs.end()) {
@@ -563,9 +579,9 @@ void cancelBookingRoom() {
 
             // ALSO remove from bookedSlots
             // Booking ID format: roomNo + dayShort + slotNum
-            string roomNo = bookingID.substr(0, bookingID.size()-4); // e.g. 203
-            string dayShort = bookingID.substr(bookingID.size()-4, 3); // Sun
-            int slotNum = stoi(bookingID.substr(bookingID.size()-1,1)); // 4
+            string roomNo = bookingID.substr(0, bookingID.size()-4); 
+            string dayShort = bookingID.substr(bookingID.size()-4, 3); 
+            int slotNum = stoi(bookingID.substr(bookingID.size()-1,1)); 
 
             // Build key for bookedSlots map
             // dayShort = "Sun" → need full day name to match key? assume key=roomNo+fullDay
@@ -622,8 +638,6 @@ void roomBookingSystemMenu() {
 }
 
 
-
-
 // Room Booking System
 void viewRoomBookingMenu() {
 
@@ -643,7 +657,7 @@ void viewRoomBookingMenu() {
     while (true) {
         system("CLS");
         int buildingChoice;
-          cout << "\t Which building's schedule do you want to see?\n";
+          cout << "\t Select Buildings :\n";
           cout << "\t 1) Building 1\n";
           cout << "\t 2) Building 2\n";
           cout << "\t 3) Building 3\n";
@@ -704,7 +718,7 @@ void viewRoomBookingMenu() {
                string roomNo;
 
                while (true) {
-               cout << "\nEnter the room number to book or 0 to go back: ";
+               cout << "\n Enter the room number to book or 0 to go back: ";
                cin >> roomNo;
 
                if (roomNo == "0") {
@@ -736,6 +750,8 @@ void viewRoomBookingMenu() {
                  }
                    break; // valid room => move forward
                  }
+                  if(roomNo == "0") 
+                  break;
 
                   // Ask for day
                   string dayInput;
@@ -752,8 +768,10 @@ void viewRoomBookingMenu() {
                     for (int i = 1; i < dayInput.size(); i++) 
                        dayInput[i] = tolower(dayInput[i]);
 
-                    for (auto d : validDays) if (d == dayInput) 
-                      validDay = true;
+                    for (auto d : validDays) 
+                      if (d == dayInput) 
+                        validDay = true;
+                        break;
 
                     if (!validDay) {
                         cout << "Invalid day! Please enter a valid day.\n";
@@ -781,15 +799,15 @@ void viewRoomBookingMenu() {
     }
 }
 
-
 // Main Function
 int main() {
 
     int mainChoice;
+    // Infinite loop use 
     while (true) {
         system("CLS");
         cout << "\t\t\t\t\t  ~ Welcome to our Room Management Program ~ \n";
-        cout << "\n\t\t\t\t\t ========== Room Management Menu ========== \n\n";
+        cout << "\n\t\t\t\t\t  ========== Room Management Menu ========== \n\n";
         cout << "\t\t\t\t 1) View Info\n";
         cout << "\t\t\t\t 2) View Time Schedule\n";
         cout << "\t\t\t\t 3) Room Booked System\n";
