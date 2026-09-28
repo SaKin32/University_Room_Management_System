@@ -20,20 +20,23 @@ A C++ console application that helps manage university buildings, classrooms, la
 ---
 
 ## 📂 Project Structure
+
+```text
 University_Room_Management_System/
 │
-├── Buildingsinfo/ # Building data files
-├── Classroomsinfo/ # Classroom data files
-├── Labroomsinfo/ # Lab room data files
-├── RoomSchedules/ # Schedule files for each room
+├── Buildingsinfo/                    # Building data files
+├── Classroomsinfo/                   # Classroom data files
+├── Labroomsinfo/                     # Lab room data files
+├── RoomSchedules/                    # Schedule files for each room
 │
-├── Main.cpp # ▶ Entry point (run this file)
+├── Main.cpp                          # ▶ Entry point (run this file)
 ├── Building_rooms_time_scedule.cpp
 ├── Full_Building_show.cpp
 ├── Room_Booking_System.cpp
 │
-├── test*.cpp / test01A.txt # Test files used during development
+├── test*.cpp / test01A.txt           # Test files used during development
 └── README.md
+```
 
 ---
 
@@ -47,17 +50,20 @@ University_Room_Management_System/
 ## ▶️ How to Run
 
 **1. Clone the repository**
+
 ```bash
 git clone https://github.com/SaKin32/University_Room_Management_System.git
 cd University_Room_Management_System
 ```
 
 **2. Compile**
+
 ```bash
 g++ Main.cpp -o main
 ```
 
 **3. Run**
+
 ```bash
 # Windows
 main.exe
@@ -75,9 +81,6 @@ main.exe
 1. Run `Main.cpp`.
 2. Choose an option from the menu.
 3. View buildings, rooms, and schedules, or book/cancel a room.
-
-<!-- Add a screenshot of your program here -->
-<!-- ![Screenshot](screenshots/menu.png) -->
 
 ---
 
